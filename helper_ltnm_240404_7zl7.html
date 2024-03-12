@@ -1,0 +1,81 @@
+console.log(getRandomString());
+grape
+
+
+const isEven = num => num % 2 === 0;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+true - orange
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const removeDuplicates = array => Array.from(new Set(array));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+21 - 30,82,96,68,91,50,42,7,87,52,84,71,23,66,59,20,14,44,90,72,0,12,61,38,14,91,14,42,7,90,94,22,53,48,34,83,81,8,65,50,29,94,45,11,45,64,68,35,81,83,85,5,9,16,32,0,14,60,22,73,79,68,9,93,19,64,27,70,89,94,29
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findSmallestNumber = numbers => Math.min(...numbers);
+35,59,26,37,89,43,97,28,34,98,12,3,73,56,3,80,65,67,63,2,42,26 * 5
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+apple
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+apple / true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const squareRoot = num => Math.sqrt(num);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+apple - 29
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const findLargestNumber = numbers => Math.max(...numbers);
+const capitalizeString = str => str.toUpperCase();
+56,56,46,57,56,39,34,59,39,39,75,25,91 / false
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const capitalizeString = str => str.toUpperCase();
+const getRandomSubset = (array, size) => array.slice(0, size);
+// This is a comment
+
+grape
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+grape
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+class MyClass { constructor() { this.property = getRandomString(); } }
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+true - kiwi
+const squareRoot = num => Math.sqrt(num);
+51,52,21,59,35,87,67,98,55,31,45,17,88,75,23,9,28,16,86,36,15,50,67,61,57,98,35,51,9,79,18,20,60,68,4,56,23,42,39,50,79,37,12 + false
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+grape * 73
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+true - false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+58 + 31
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+96,61 - false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+kiwi + false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+66 / 54
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+false + 99
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
