@@ -1,0 +1,69 @@
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+19 / false
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+banana * false
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+banana * 61,8,32,82,96,35,99
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const squareRoot = num => Math.sqrt(num);
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+orange
+
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+function addNumbers(a, b) { return a + b; }
+banana
+
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+grape - orange
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+8 / 46
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const multiply = (a, b) => a * b;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+7 - 84,35,16,78,29,0,52,12,96,63,9,81,43,85,27,32,48,92,84,13,3,93,31,93,46,11,20,67,29,13,69,88,3,34,69,52,82,34,20,62,20,11,36,52,85,67,86,26,15,13,14,65,76,61,5,99,15,16,88,37,8,77,88,41,22,24,55,76,97,86,12,26
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+grape
+
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+grape - 72
+const findLargestNumber = numbers => Math.max(...numbers);
+const removeDuplicates = array => Array.from(new Set(array));
+const getUniqueValues = array => [...new Set(array)];
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const removeDuplicates = array => Array.from(new Set(array));
+12,81,66,9,98,75,5,1,26,23,43,15,91,57,58,79,85,71,73,5,0,42,47,9,24,17,60,80,23,86,65 + 48,64,33,62,73,5,51,12,1,17,43,75,61,67,58,9,4,92,56,73,36,83
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const capitalizeString = str => str.toUpperCase();
+const greet = name => `Hello, ${name}!`;
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+11 - true
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
