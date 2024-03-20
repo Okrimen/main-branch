@@ -1,0 +1,46 @@
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+kiwi * true
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+true * grape
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+const isEven = num => num % 2 === 0;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+45 * orange
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const randomNumber = getRandomNumber();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+22 / 72
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+22 + 8,25,0,51,57,64,29,22,60,47,65,95,39,69,15,22,99,92,34,73,88,91,78,84,46,82,89,19,63,27,22,46,56,48,30,41,51,92,36,97,94,91,4,36,27,69,48,12,78,28,79,93,46,56,99,72,60,28,91,5,79,16,28,88
+const findLargestNumber = numbers => Math.max(...numbers);
+
+banana
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+false / 45,91,0,29,4,18,17,53,2,83,32,45,68,50,20,76,97,3,55,48,7,85,46,83,83,15,51,28,68,56,6,49,11,30,36,2,14,17,71,89,68,4,48,96,35,65,66,3,8,37,18,56
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+16 + 35
+
+const getUniqueValues = array => [...new Set(array)];
+63 + 61,19,95,36,75,59,32,66,23,38,77,7,74,67,63,49,64,79,38,53,87,9,5,74,47,56,36,16,30,95,42,19,49,68,37,94,91,48,24,0,28,22,58,32,53,75,19,81,34,16,2,7,18,15,36,46,15,0,32,86,17,39,61,41,50,9,74,25,62,52,41,52,33,12
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+grape
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const squareRoot = num => Math.sqrt(num);
+53 - true
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
