@@ -1,0 +1,81 @@
+kiwi
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi / 23
+
+// This is a comment
+
+banana
+
+const getUniqueValues = array => [...new Set(array)];
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+90,20,83,61,40,4,58,71,83,74,36,3,66,52,15,34,49,50,38,48,84,31,96,44,94,78,42,49,75,63,56,1,93,81,63,35,58,49,34,76,82,57,96,25,97,11,61,21,90,16,8,81,68,16,9,16,32,51,95,83,29,56,38,64,44,46,23,69,1,27,61,53,94,59,85,40,34 + 36
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+88,1,99,96,51,37,12,58,55,15,71,83,15,73,62,61,40,89,38,67,73,6,92,14,81,21,46,69,64,15,88,71,10,82,86,29,26,94,22,89,71,70,3,44,30,55,34,42,92,83,16,76,55,23,91,58,57,17,84,21,70,31,18,21,63,82,52,83,41,93,80,38,53,59,15,79,40,26,55,97,14,39,22,33,45,24,18,36,22,10,5,85,66,48,87 - 77
+function addNumbers(a, b) { return a + b; }
+apple
+
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+true - kiwi
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findSmallestNumber = numbers => Math.min(...numbers);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+15,63,61,87,44,93,80,1 * true
+const squareRoot = num => Math.sqrt(num);
+banana
+
+const reverseString = str => str.split("").reverse().join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+0 + false
+const removeDuplicates = array => Array.from(new Set(array));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+75 / true
+const getRandomSubset = (array, size) => array.slice(0, size);
+77 - 84
+const variableName = getRandomNumber();
+
+const getUniqueValues = array => [...new Set(array)];
+const randomNumber = getRandomNumber();
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+48,59,23,57,43,9,3,50,58,2,95,21,61,51,62,9,51,65,63,9,61,65,84,76,9,53,57,15,97,95,71,51,51,25,26,14,21,28,0,76,23,94,14,34,91,34,10,32,3,78,86,29,88,73,51,95,1,14,79,64,24,14,88,66,90,32,47,30,88,94,33,87,74,0,74,11 + true
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+58,67,99,54,84,35,2,95,48,23,93,44,29,62,46,99,27,88,55,56,12,30,40,39,97,18,33,93,88,53,87,42,24,66,87,77,76,71,17,69,18,47,31,5,47,1,86,67,91,40,41,41,55,37,84,35,16,25,74,19,58,50,69,55,47,98,76,32,30,37,37,31,91,32,41,54,8,62,0,83,15 + false
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+grape + kiwi
+const reverseString = str => str.split("").reverse().join("");
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana / false
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+grape
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const isPalindrome = str => str === str.split("").reverse().join("");
+false + orange
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const variableName = getRandomNumber();
