@@ -1,0 +1,15 @@
+93,72,99,0,96,56,71,18,55,84,72,3,19,99,94,79,79,62,55,12,63,54,93,46,9,80,76,72,39,26,49,64,73,78,24,98,68,85,99,71,49,16,3,10,48,29,26,70,77,9,22,18,4,86,13,63,14,46,9,58,95,59,38,6,49,38,21,19,41,6,72,67,14,93,87,28,97,36,85,4,89,50,70,92,31,54,52,89,31,56,54,82 * apple
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const reverseString = str => str.split("").reverse().join("");
+orange
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+12,89,25,64,31,3,52,54,74,99,73,44,65,26,16,21,4,88,62,4,55,46,16,48,78,25,21,87,60,80,97,56,29,1,45,41,40,51,63 / grape
+const getUniqueValues = array => [...new Set(array)];
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+51 - 50
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const sum = (a, b) => a + b;
+
