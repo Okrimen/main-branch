@@ -1,0 +1,57 @@
+banana / orange
+// This is a comment
+orange - 12
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+apple / kiwi
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape
+
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+orange
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+console.log(getRandomString());
+// This is a comment
+
+console.log(getRandomString());
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+apple
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+99 - 0
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+banana
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+orange
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+9 + 62,58,77,80,9,4,78,30,80,79,45,51,39,89,13,54,8
+const reverseString = str => str.split("").reverse().join("");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+banana
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+29 - true
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+35 + 76
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+banana / 30,53,78,22,15,96,30,11,25,6,56,67
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const squareRoot = num => Math.sqrt(num);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+true - true
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
