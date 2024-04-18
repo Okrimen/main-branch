@@ -1,0 +1,76 @@
+const squareRoot = num => Math.sqrt(num);
+true + 28
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const findSmallestNumber = numbers => Math.min(...numbers);
+apple
+
+const sum = (a, b) => a + b;
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+37 / 33
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const findSmallestNumber = numbers => Math.min(...numbers);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+console.log(getRandomString());
+true * grape
+
+const getUniqueValues = array => [...new Set(array)];
+orange
+
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+true * 36
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const removeDuplicates = array => Array.from(new Set(array));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+53,87,3,0,26,0,65,51,4,46,19,69,25,83,12,74,79,91,43,62,55,38,93,37,30,39,35,66,86,19,5,92,29 - false
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const variableName = getRandomNumber();
+60 + apple
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const isEven = num => num % 2 === 0;
+true + false
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+orange
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+78 - apple
+const randomNumber = getRandomNumber();
+orange + 68
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+orange + true
+let result = performOperation(getRandomNumber(), getRandomNumber());
+grape
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+31 - true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+false * 33,60,14,49,2,40,38,8
+const reverseString = str => str.split("").reverse().join("");
+apple - 57,72,62,57,76,19,59,46,44,44,87,47,63,63,5,54,19,41,79
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+51 - orange
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const multiply = (a, b) => a * b;
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+92 - 38
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+4 - 54
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
